@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: azure;
+}
+
+h1{
+    text-align: center;
+    font-size: 175%;
+    color: black;
+}
+section header
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    border: 2px solid black;
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    font-size: 125%;
+}
+#sec2 > header
+{
+    background-color: gold;
+    color: black;
+    font-size: 125%;
+}
+#sec3 > header
+{
+    background-color: chocolate;
+    color: cornsilk;
+    font-size: 125%;
+}
+
+@media (min-width:992px)
+{
+section
+{
+    float: left;
+    width: 30.6%;
+    border: 2px solid black;
+    margin-left: 2%;
+    position: relative;
+    background-color: gray;
+    padding: 20px;
+}
+
+
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    #sec1,#sec2
+    {
+        float: left;
+        width: 45%;
+        border: 2px solid black;
+        margin-left: 3.3%;
+        margin-bottom: 4%;
+        position: relative;
+        background-color: gray;
+        padding: 20px;
+    }
+    #sec3
+    {
+        clear: left;
+        width: 93.4%;
+        margin-left: 3.3%;
+        background-color: gray;
+        border: 2px solid black;
+        position: relative;
+        padding: 20px;
+        
+    }
+}
+
+@media (max-width:767px)
+{
+    section
+    {
+        width: 93.4%;
+        margin:auto;
+        background-color: gray;
+        border: 2px solid black;
+        position: relative;
+        padding: 20px;
+        margin-bottom: 4%;
+        
+    }
+}
